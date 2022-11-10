@@ -1,0 +1,67 @@
+{
+	"id": "84e9a4b624f3272ebd62f843e550cf1a",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.9",
+	"solcLongVersion": "0.8.9+commit.e5eed63a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/SimpleStorage.sol": {
+				"content": "// Identificador de licensia\r\n// SPDX-License-Identifier: MIT\r\n\r\n// Versión del lenguaje que utilizamos.\r\n// Cualquier version hacía una superior se marcar con ^\r\n// Setear una versión entre versiones se anota >=0.x.x <0.9.x\r\npragma solidity 0.8.9;\r\n\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/SimpleStorage.sol": {
+				"ast": {
+					"absolutePath": "contracts/SimpleStorage.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".9"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "229:22:0"
+						}
+					],
+					"src": "229:28:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
